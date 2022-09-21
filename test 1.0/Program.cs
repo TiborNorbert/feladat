@@ -10,9 +10,18 @@ namespace test_1._0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Adj be 2-t számot te");
+            Console.WriteLine("Adjon be 2-t számot te");
             int szam1 = Convert.ToInt32(Console.ReadLine());
             int szam2 = Convert.ToInt32(Console.ReadLine());
+            if (szam1>szam2)
+            {
+                Console.WriteLine("Az egyes szám nagyobb");
+            }
+            else
+            {
+                Console.WriteLine("Az kettes szám a nagyobb");
+            }
+            Console.ReadKey();
         }
     }
 }
